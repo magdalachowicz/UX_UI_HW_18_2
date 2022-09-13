@@ -1,0 +1,142 @@
+body {
+    background-color: #EFF0E9;
+}
+
+.quote {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-size: 40px;
+    display: flex;
+    color: #124A57;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 1%;
+    margin-top: -150px;
+    float: left;
+}
+
+.skillset {
+    position: absolute;
+    right: 2%;
+    top: 250px;
+    float: inline-end;
+}
+
+.skillset img {
+    margin-left: 75px;
+}
+
+#content {
+    justify-content: flex-start;
+    top: 100px;
+}
+
+.nav {
+    font-family: 'Nunito';
+    font-style: semi-bold;
+    font-size: 18px;
+    display: flex;
+    color: #373435;
+    position: absolute;
+    right: 2%;
+    top: 100px;
+    word-spacing: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.nav li {
+    display: inline;
+}
+
+.skills li { 
+    display: inline;
+    margin-left: 60px;
+}
+
+h2 {
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-size: 36px;
+    color: #373435;
+    text-align: right;
+    position: absolute;
+    right: 2%;
+    top: 150px;
+}
+
+#bar {
+    justify-content: flex-end;
+}
+
+#skills {
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    color: #373435;
+    position: absolute;
+    top: 410px;
+    right: 2%;
+}
+
+#tools {
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    color: #373435;
+    position: absolute;
+    top: 475px;
+    right: 2%;
+}
+
+#toolss {
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    color: #373435;
+    position: absolute;
+    top: 525px;
+    right: 2%;
+}
+
+.button {
+    background-color: #124A57;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'Bree Serif';
+    color: #EFF0E9;
+    cursor: pointer;
+    position: absolute;
+    top: 600px;
+    right: 2%;
+}
+
+#design {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    position: absolute;
+    top: 625px;
+    right: 2%;
+}
+
+.footer {
+    display:inline-block;
+    position: absolute;
+    right: 5%;
+    top: 790px;
+}
