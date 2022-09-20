@@ -56,9 +56,15 @@ h2 {
     font-style: normal;
     font-size: 36px;
     color: #373435;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
+    margin: 25px;
+}
+
+p {
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-size: 20px;
+    color: #373435;
 }
 
 #bar {
@@ -68,56 +74,38 @@ h2 {
 .flexContainer {
     display: flex;
     flex: 33% 33% 33%;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+}
+
+.flexContainer2 {
+    display: flex;
+    flex: 50% 50%;
+    align-items: left;
+    justify-content: left;
     flex-direction: row;
 }
 
 .flexContainer div {
-    margin: 25px;
+    margin: 15px;
 }
 
-#skills {
-    font-family: 'Bree Serif';
-    font-style: normal;
-    font-size: 20px;
-    display: flex;
-    color: #373435;
-    position: absolute;
-    top: 410px;
+.flexContainer2 div {
+    margin: 15px;
 }
+
 
 .myTools {
     align-items: center;
     justify-content: center;
 }
 
-#tools {
+.skills {
     font-family: 'Bree Serif';
     font-style: normal;
     font-size: 20px;
     color: #373435;
-}
-
-#toolss {
-    font-family: 'Bree Serif';
-    font-style: normal;
-    font-size: 20px;
-    display: flex;
-    color: #373435;
-}
-
-.button {
-    background-color: #124A57;
-    border: none;
-    border-radius: 20px;
-    text-align: center;
-    padding: 10px 15px;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'Bree Serif';
-    color: #EFF0E9;
-    cursor: pointer;
 }
 
 #design {
@@ -125,7 +113,7 @@ h2 {
     justify-content: flex-end;
     align-content: flex-end;
     position: absolute;
-    top: 625px;
+    top: 750px;
     right: 2%;
 }
 
@@ -133,7 +121,8 @@ h2 {
     display:inline-block;
     position: absolute;
     right: 5%;
-    top: 790px;
+    top: 950px;
+    display: flex;
 }
 
 @media only screen and (max-width: 600) {
