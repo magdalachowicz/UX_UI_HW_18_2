@@ -17,15 +17,11 @@ body {
     float: left;
 }
 
-.skillset {
-    position: absolute;
-    right: 2%;
-    top: 250px;
-    float: inline-end;
-}
-
-.skillset img {
-    margin-left: 75px;
+h3 {
+    font-family: 'Bree Serif';
+    font-style: normal;
+    font-size: 20px;
+    color: #373435;
 }
 
 #content {
@@ -55,24 +51,30 @@ ul {
     display: inline;
 }
 
-.skills li { 
-    display: inline;
-    margin-left: 60px;
-}
-
 h2 {
     font-family: 'Bree Serif';
     font-style: normal;
     font-size: 36px;
     color: #373435;
-    text-align: right;
-    position: absolute;
-    right: 2%;
-    top: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #bar {
     justify-content: flex-end;
+}
+
+.flexContainer {
+    display: flex;
+    flex: 33% 33% 33%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flexContainer div {
+    margin: 25px;
 }
 
 #skills {
@@ -83,18 +85,18 @@ h2 {
     color: #373435;
     position: absolute;
     top: 410px;
-    right: 2%;
+}
+
+.myTools {
+    align-items: center;
+    justify-content: center;
 }
 
 #tools {
     font-family: 'Bree Serif';
     font-style: normal;
     font-size: 20px;
-    display: flex;
     color: #373435;
-    position: absolute;
-    top: 475px;
-    right: 2%;
 }
 
 #toolss {
@@ -103,9 +105,6 @@ h2 {
     font-size: 20px;
     display: flex;
     color: #373435;
-    position: absolute;
-    top: 525px;
-    right: 2%;
 }
 
 .button {
@@ -115,14 +114,10 @@ h2 {
     text-align: center;
     padding: 10px 15px;
     text-decoration: none;
-    display: inline-block;
     font-size: 20px;
     font-family: 'Bree Serif';
     color: #EFF0E9;
     cursor: pointer;
-    position: absolute;
-    top: 600px;
-    right: 2%;
 }
 
 #design {
@@ -139,4 +134,10 @@ h2 {
     position: absolute;
     right: 5%;
     top: 790px;
+}
+
+@media only screen and (max-width: 600) {
+    .flexContainer {
+        flex-direction: column;
+    }
 }
