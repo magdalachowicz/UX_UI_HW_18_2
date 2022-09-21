@@ -5,17 +5,10 @@ body {
 .quote {
     font-family: 'Nunito';
     font-style: normal;
-    font-size: 40px;
-    display: flex;
+    font-size: 38px;
     color: #124A57;
+    margin-left: 1%;
 }
-
-.logo {
-    margin-right: auto;
-    margin-left: 2%;
-    float: left;
-}
-
 h3 {
     font-family: 'Bree Serif';
     font-style: normal;
@@ -88,6 +81,12 @@ p {
 
 .flexContainer div {
     margin: 15px;
+}
+
+hr {
+    color: #F0A202;
+    width: 500px;
+    margin-left: 1%;
 }
 
 .myTools {
