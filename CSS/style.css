@@ -83,10 +83,13 @@ p {
     margin: 15px;
 }
 
+.top {
+    margin-right: 2%;
+}
+
 hr {
     color: #F0A202;
     width: 500px;
-    margin-left: 1%;
 }
 
 .myTools {
