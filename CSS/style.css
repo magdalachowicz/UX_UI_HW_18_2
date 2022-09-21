@@ -12,15 +12,14 @@ body {
 
 .logo {
     margin-right: auto;
-    margin-left: 1%;
-    margin-top: -150px;
+    margin-left: 2%;
     float: left;
 }
 
 h3 {
     font-family: 'Bree Serif';
     font-style: normal;
-    font-size: 20px;
+    font-size: 24px;
     color: #373435;
 }
 
@@ -36,8 +35,8 @@ h3 {
     display: flex;
     color: #373435;
     position: absolute;
-    right: 2%;
     top: 100px;
+    right: 2%;
     word-spacing: 30px;
 }
 
@@ -91,11 +90,6 @@ p {
     margin: 15px;
 }
 
-.flexContainer2 div {
-    margin: 15px;
-}
-
-
 .myTools {
     align-items: center;
     justify-content: center;
@@ -122,7 +116,6 @@ p {
     position: absolute;
     right: 5%;
     top: 950px;
-    display: flex;
 }
 
 @media only screen and (max-width: 600) {
